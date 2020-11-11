@@ -1,11 +1,14 @@
 import React from 'react'
-import Header from '../LandingPage/Header'
+import Navbar from '../LandingPage/burger/Navbar'
+//import Header from '../LandingPage/Header'
 import Footer from '../LandingPage/Footer'
+
 
 export default ({ children }) => {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
+            <Navbar />
             { children }
             <Footer />
         </>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../LandingPage/burger/Navbar'
 
 const Header = () => {
     return (
         <div>
-            Header
+             <Navbar />
         </div>
     )
 }
